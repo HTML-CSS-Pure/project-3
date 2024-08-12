@@ -8,12 +8,20 @@ button {
 }
 
 .btn {
-  line-height: 1.75;
-  font-family: inherit;
+  min-width: 205px;
+  height: 60px;
+  color: #fff;
+  background: #2E80CE;
   border: none;
   border-radius: 999px;
-  color: #fff;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.75;
+  text-align: center;
   transition: all ease 0.25s;
-  cursor: pointer;
 
+  &:hover {
+    opacity: 0.8;
+  }
 }
