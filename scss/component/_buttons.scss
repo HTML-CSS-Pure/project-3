@@ -1,0 +1,19 @@
+@use "../abstracts" as var;
+
+button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn {
+  line-height: 1.75;
+  font-family: inherit;
+  border: none;
+  border-radius: 999px;
+  color: #fff;
+  transition: all ease 0.25s;
+  cursor: pointer;
+
+}
