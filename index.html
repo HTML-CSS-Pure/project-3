@@ -3,9 +3,234 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lesson Learning</title>
+    <link rel="stylesheet" href="./assets/css/main/main.css" />
+    <link rel="stylesheet" href="./assets/css/main/grid.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Shine Smile</title>
   </head>
-  <body>
-
+  <body style="height: 5000px">
+    <header class="header fixed">
+      <div class="content header-content">
+        <div class="logo">
+          <span class="logo-circle"></span>
+          <div class="logo-text">
+            <span class="text-up">shine</span>
+            <span class="text-down">smile</span>
+          </div>
+        </div>
+        <nav class="navbar text-header-paragraph">
+          <ul class="list">
+            <li class="item active"><a href="#!">Home</a></li>
+            <li class="item"><a href="#!">Services</a></li>
+            <li class="item"><a href="#!">About</a></li>
+            <li class="item"><a href="#!">Doctors</a></li>
+          </ul>
+        </nav>
+        <div class="auth">
+          <a href="#!" class="login text-header-paragraph">Log In</a>
+          <button class="btn sign-up-btn">Sign Up</button>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="content hero-content">
+        <div class="hero-left">
+          <h1 class="title size-70 font-bold">
+            Exceptional dental care for all ages.
+          </h1>
+          <p class="desc text-header-paragraph">
+            Exceptional dental care for all ages. Your great smile begins with a
+            great dentist.
+          </p>
+          <div class="booking">
+            <button class="btn">Book Online</button>
+            <span class="phone">or call (123) 456-7890</span>
+          </div>
+        </div>
+        <div class="hero-right">
+          <img
+            src="./assets/img/header-1.png"
+            class="img-left"
+            alt="Dental Care"
+          />
+          <img
+            src="./assets/img/header-2.png"
+            class="img-right"
+            alt="Dental Care"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="service text-main-paragraph">
+      <div class="content">
+        <div class="service-top">
+          <h2 class="title text-main-heading">Our services</h2>
+          <p class="desc">
+            Exceptional dental care for all ages. Your great smile begins with a
+            great dentist.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <img
+            src="./assets/img/service-1.png"
+            alt="Our services"
+            class="img"
+          />
+          <div class="service-list">
+            <ul>
+              <li class="item">
+                <div class="icon">
+                  <svg
+                    width="22"
+                    height="24"
+                    viewBox="0 0 22 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <h3 class="heading text-main-heading">Oral Surgery</h3>
+                  <p class="desc">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </li>
+              <li class="item">
+                <div class="icon">
+                  <svg
+                    width="22"
+                    height="24"
+                    viewBox="0 0 22 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <h3 class="heading text-main-heading">
+                    Wisdom Teeth Removal
+                  </h3>
+                  <p class="desc">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </li>
+              <li class="item">
+                <div class="icon">
+                  <svg
+                    width="22"
+                    height="24"
+                    viewBox="0 0 22 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <h3 class="heading text-main-heading">
+                    Preventative Dentistry
+                  </h3>
+                  <p class="desc">
+                    Everything you expect and then some. Cleanings, fillings,
+                    and x-rays.
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <button class="btn service-btn">All Services</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

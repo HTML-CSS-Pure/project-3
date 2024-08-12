@@ -5,6 +5,53 @@ a {
 
 .fixed {
   position: sticky;
-  top: -24px;
-  z-index: 1;
+  top: 0;
+  z-index: 10;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.size-18 {
+  font-size: 1.8rem;
+}
+
+.size-16 {
+  font-size: 1.6rem;
+}
+
+.size-14 {
+  font-size: 1.4rem;
+}
+
+.size-50 {
+  font-size: 5rem;
+}
+
+.size-70 {
+  font-size: 7rem;
+}
+
+.text-header-paragraph {
+  color: #c9d2da;
+  font-weight: 300;
+}
+
+.text-main-heading {
+  color: var(--text-main-heading-color);
+  font-weight: 600;
+}
+
+.text-main-paragraph {
+  color: var(--text-main-paragraph-color);
+  font-weight: 300;
 }

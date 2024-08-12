@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -52,6 +53,177 @@ table {
   border-spacing: 0;
 }
 
+/**
+* @license
+*
+* Font Family: Sora
+* Designed by: Jonathan Barnbrook, Julián Moncada
+* URL: https://www.fontshare.com/fonts/sora
+* © 2024 Indian Type Foundry
+*
+* Sora Thin 
+* Sora ThinItalic 
+* Sora ExtraLight 
+* Sora ExtraLightItalic 
+* Sora Light 
+* Sora LightItalic 
+* Sora Regular 
+* Sora Italic 
+* Sora Medium 
+* Sora MediumItalic 
+* Sora SemiBold 
+* Sora SemiBoldItalic 
+* Sora Bold 
+* Sora BoldItalic 
+* Sora ExtraBold 
+* Sora ExtraBoldItalic 
+* Sora Variable (Variable font)
+* Sora VariableItalic (Variable font)
+
+*
+*/
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Thin.woff2") format("woff2"), url("../../font/sora/Sora-Thin.woff") format("woff"), url("../../font/sora/Sora-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-ThinItalic.woff2") format("woff2"), url("../../font/sora/Sora-ThinItalic.woff") format("woff"), url("../../font/sora/Sora-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-ExtraLight.woff2") format("woff2"), url("../../font/sora/Sora-ExtraLight.woff") format("woff"), url("../../font/sora/Sora-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-ExtraLightItalic.woff2") format("woff2"), url("../../font/sora/Sora-ExtraLightItalic.woff") format("woff"), url("../../font/sora/Sora-ExtraLightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Light.woff2") format("woff2"), url("../../font/sora/Sora-Light.woff") format("woff"), url("../../font/sora/Sora-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-LightItalic.woff2") format("woff2"), url("../../font/sora/Sora-LightItalic.woff") format("woff"), url("../../font/sora/Sora-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Regular.woff2") format("woff2"), url("../../font/sora/Sora-Regular.woff") format("woff"), url("../../font/sora/Sora-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Italic.woff2") format("woff2"), url("../../font/sora/Sora-Italic.woff") format("woff"), url("../../font/sora/Sora-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Medium.woff2") format("woff2"), url("../../font/sora/Sora-Medium.woff") format("woff"), url("../../font/sora/Sora-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-MediumItalic.woff2") format("woff2"), url("../../font/sora/Sora-MediumItalic.woff") format("woff"), url("../../font/sora/Sora-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-SemiBold.woff2") format("woff2"), url("../../font/sora/Sora-SemiBold.woff") format("woff"), url("../../font/sora/Sora-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-SemiBoldItalic.woff2") format("woff2"), url("../../font/sora/Sora-SemiBoldItalic.woff") format("woff"), url("../../font/sora/Sora-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Bold.woff2") format("woff2"), url("../../font/sora/Sora-Bold.woff") format("woff"), url("../../font/sora/Sora-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-BoldItalic.woff2") format("woff2"), url("../../font/sora/Sora-BoldItalic.woff") format("woff"), url("../../font/sora/Sora-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-ExtraBold.woff2") format("woff2"), url("../../font/sora/Sora-ExtraBold.woff") format("woff"), url("../../font/sora/Sora-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-ExtraBoldItalic.woff2") format("woff2"), url("../../font/sora/Sora-ExtraBoldItalic.woff") format("woff"), url("../../font/sora/Sora-ExtraBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 400.0;
+  *
+  * available axes:
+  'wght' (range from 100.0 to 800.0
+  */
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-Variable.woff2") format("woff2"), url("../../font/sora/Sora-Variable.woff") format("woff"), url("../../font/sora/Sora-Variable.ttf") format("truetype");
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: normal;
+}
+/**
+  * This is a variable font
+  * You can control variable axes as shown below:
+  * font-variation-settings: wght 400.0;
+  *
+  * available axes:
+  'wght' (range from 100.0 to 800.0
+  */
+@font-face {
+  font-family: "Sora";
+  src: url("../../font/sora/Sora-VariableItalic.woff2") format("woff2"), url("../../font/sora/Sora-VariableItalic.woff") format("woff"), url("../../font/sora/Sora-VariableItalic.ttf") format("truetype");
+  font-weight: 100 800;
+  font-display: swap;
+  font-style: italic;
+}
 :root {
   --bg-primary-color: #2E80CE;
   --bg-secondary-color: #10375C;
@@ -60,7 +232,7 @@ table {
   --text-header-color: #C9D2DA;
   --text-footer-color: #AAB3BA;
   --text-main-heading-color: #10375C;
-  --text-main-content-color: #575F66;
+  --text-main-paragraph-color: #575F66;
 }
 
 * {
@@ -73,10 +245,11 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Poppins", sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -87,8 +260,217 @@ a {
 
 .fixed {
   position: sticky;
-  top: -24px;
+  top: 0;
+  z-index: 10;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-bold {
+  font-weight: 600;
+}
+
+.size-18 {
+  font-size: 1.8rem;
+}
+
+.size-16 {
+  font-size: 1.6rem;
+}
+
+.size-14 {
+  font-size: 1.4rem;
+}
+
+.size-50 {
+  font-size: 5rem;
+}
+
+.size-70 {
+  font-size: 7rem;
+}
+
+.text-header-paragraph {
+  color: #c9d2da;
+  font-weight: 300;
+}
+
+.text-main-heading {
+  color: var(--text-main-heading-color);
+  font-weight: 600;
+}
+
+.text-main-paragraph {
+  color: var(--text-main-paragraph-color);
+  font-weight: 300;
+}
+
+.header {
+  padding: 36px 0px;
+  background: var(--bg-secondary-color);
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .auth {
+  line-height: 1.75;
+}
+.header .auth .login {
+  margin-right: 28px;
+}
+.header .auth .login:hover {
+  color: #fff;
+  text-shadow: 1px 0 0 currentColor;
+}
+.header .auth .sign-up-btn {
+  min-width: 104px;
+  height: 44px;
+  font-size: 1.6rem;
+}
+
+.navbar .list {
+  display: flex;
+  gap: 42px;
+}
+.navbar .list .item:hover,
+.navbar .list .item.active {
+  color: #fff;
+  text-shadow: 1px 0 0 currentColor;
+}
+.navbar .list .item.active::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  position: relative;
+  right: 6px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #fff;
+}
+
+.hero {
+  background: var(--bg-secondary-color);
+  padding: 40px 0 110px;
+  color: #fff;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-left {
+  width: 44%;
+}
+.hero-left .title {
+  color: #fff;
+  line-height: 1.14;
+  letter-spacing: -1.4px;
+}
+.hero-left .desc {
+  margin-top: 22px;
+  font-size: 1.8rem;
+  line-height: 1.67;
+}
+.hero-left .booking {
+  margin-top: 38px;
+}
+.hero-left .booking .btn {
+  margin-right: 38px;
+}
+.hero-right {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+.hero-right .img-left,
+.hero-right .img-right {
+  object-fit: cover;
+}
+.hero-right .img-left {
+  width: 330px;
+  height: 540px;
   z-index: 1;
+}
+.hero-right .img-right {
+  width: 210px;
+  height: 410px;
+  margin-left: -6px;
+}
+
+.service {
+  padding: 170px 0;
+}
+.service-top {
+  text-align: center;
+}
+.service-top .title {
+  font-size: 5rem;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+.service-top .desc {
+  font-size: 1.8rem;
+  line-height: 1.66;
+  width: 40%;
+  margin: 18px auto 0;
+}
+.service-bottom {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.service-bottom .img {
+  width: 570px;
+  height: 570px;
+  object-fit: cover;
+}
+.service-list {
+  width: 40%;
+}
+.service-list .item {
+  display: flex;
+  padding: 20px;
+  padding-right: 0px;
+  border-radius: 10px;
+}
+.service-list .item .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #eff6fd;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+}
+.service-list .item:hover {
+  position: relative;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+.service-list .item:hover .icon {
+  color: #fff;
+  background: var(--bg-primary-color);
+}
+.service-list .item .item-desc .heading {
+  font-size: 1.8rem;
+}
+.service-list .item .item-desc .desc {
+  margin-top: 8px;
+  line-height: 1.75;
+}
+.service-list .service-btn {
+  margin-top: 55px;
 }
 
 button {
@@ -102,13 +484,13 @@ button {
   min-width: 205px;
   height: 60px;
   color: #fff;
-  background: #2E80CE;
+  background: #2e80ce;
   border: none;
   border-radius: 999px;
   font-family: inherit;
   font-weight: 400;
   font-size: 1.8rem;
-  line-height: 1.75;
+  line-height: 1.67;
   text-align: center;
   transition: all ease 0.25s;
 }
@@ -120,6 +502,47 @@ button {
   width: 1170px;
   max-width: calc(100% - 48px);
   margin: 0 auto;
+}
+
+.logo {
+  font-size: 1rem;
+  display: inline-flex;
+  position: relative;
+}
+.logo-circle::before, .logo-circle::after {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+}
+.logo-circle::before {
+  width: 3em;
+  height: 3em;
+  background: var(--bg-primary-color);
+}
+.logo-circle::after {
+  position: absolute;
+  top: 1.1em;
+  left: 1.1em;
+  width: 1.6em;
+  height: 1.6em;
+  background: #fff;
+}
+.logo-text {
+  margin-left: 6px;
+}
+.logo-text .text-down,
+.logo-text .text-up {
+  color: #fff;
+  display: block;
+}
+.logo-text .text-up {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+.logo-text .text-down {
+  font-size: 1.2em;
+  font-weight: 300;
+  text-align: right;
 }
 
 /*# sourceMappingURL=main.css.map */
