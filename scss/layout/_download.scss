@@ -1,0 +1,56 @@
+.download {
+    padding-top: 95px;
+    margin-top: 170px;
+    color: #FFF;
+
+    .content {
+        padding: 0 70px;
+        background: var(--bg-primary-color);
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .download-img {
+            width: 284px;
+            height: 522px;
+            object-fit: cover;
+            margin-top: -95px;
+        }
+    }
+
+    .info {
+        width: 57%;
+
+        .title {
+            font-size: 5rem;
+            color : #FFF;
+            line-height: 1.2;
+        }
+
+        .desc {
+            margin-top: 18px;
+            line-height: 1.67;
+            font-size: 1.8rem;
+            font-weight: 200;
+        }
+
+        .download-app {
+            margin-top: 38px;
+
+            .google-play {
+                margin-right: 28px;
+            }
+
+            img {
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+
+
+    }
+}

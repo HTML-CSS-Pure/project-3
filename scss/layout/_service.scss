@@ -26,6 +26,7 @@
     .img {
       width: 570px;
       height: 570px;
+      border-radius: 12px;
       object-fit: cover;
     }
   }
@@ -62,7 +63,7 @@
       }
 
       .item-desc {
-        .heading {
+        .title {
           font-size: 1.8rem;
         }
 

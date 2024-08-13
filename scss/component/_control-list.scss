@@ -1,0 +1,25 @@
+.control-nav {
+    display: flex; 
+    gap: 18px;
+
+    .control-left,.control-right {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid #575F66;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+            background: var(--bg-primary-color);
+            color: #FFF;
+            border-color: var(--bg-primary-color);
+        }
+    }
+
+    .control-right {
+        rotate: 180deg;
+    }
+}

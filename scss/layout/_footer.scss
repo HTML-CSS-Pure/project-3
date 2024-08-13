@@ -1,0 +1,37 @@
+.footer {
+    font-family: "Open Sans","san-serif";
+    padding: 100px 0px 42px;
+    margin-top: 170px;
+    background: var(--bg-secondary-color);
+    color : #A9B3BB;
+    font-weight: 400;
+
+
+    .category-title {
+        color : #FFF;
+        font-weight: 600;
+        line-height: 1.75;
+    }
+
+    .category-list {
+        border-bottom: 1px solid #406181 ;
+        padding-bottom: 28px;
+    }
+
+    .brand-column {
+        width: 28%;
+        flex-shrink: 0;
+
+        .logo-content {
+            line-height: 1.75;
+            margin-top: 21px;
+        }
+    }
+
+    .copyright {
+        margin-top: 28px;
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 1.85;
+    }
+}

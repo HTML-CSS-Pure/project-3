@@ -1,0 +1,118 @@
+.featured-1 {
+    padding: 100px 0;
+    background-color: var(--bg-third-color);
+
+    .featured-header {
+        width: 40%;
+        .title {
+            font-size: 5rem;
+            line-height: 1.2;
+            letter-spacing: -1px;
+        }
+
+        .desc {
+            margin-top: 18px;
+            font-size: 1.8rem;
+            line-height: 1.67;
+        }
+    }
+
+    .featured-list {
+        display: flex;
+        gap: 30px;
+        margin-top: 70px;
+
+        .item {
+            padding: 42px;
+            border: 16px solid var(--bg-fourth-color);
+            border-radius: 4px;
+
+            &:hover {
+                border-color: var(--bg-primary-color);
+                position: relative;
+                bottom: 16px;
+            }
+
+            .icon {
+                width: 72px;
+                height: 72px;
+            }
+            
+            .title {
+                margin-top: 18px;
+                font-size: 2.6rem;
+                line-height: 1.38;
+            }
+
+            .desc {
+                margin-top: 28px;
+                line-height: 1.75;
+            }
+
+            .learn-btn {
+                margin-top: 18px;
+                line-height: 1.75;
+                display: inline-block;
+
+                &:hover {
+                    color : var(--bg-primary-color);
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.featured-2 {
+    margin-top: 170px;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .featured-image {
+        width: 49%;
+        display: flex;
+        padding-bottom: 121px;
+        position: relative;
+
+        .img-left,.img-right {
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        .img-left {
+            width: 512px;
+            height: 370px;
+        }
+
+        .img-right {
+            width: 332px;
+            height: 370px;
+            position: absolute;
+            bottom: 0; 
+            right: 0;
+        }
+    }
+
+    .featured-desc {
+        width: 40%;
+        .title {
+            font-size: 5rem;
+            line-height: 1.2; /* 120% */
+            letter-spacing: -1px;
+        }
+
+        .desc {
+            margin-top: 18px;
+            font-size: 1.8rem;
+            line-height: 1.67;
+        }
+
+        .featured-btn {
+            margin-top: 38px;
+        }
+    }
+}

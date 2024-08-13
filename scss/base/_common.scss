@@ -55,3 +55,13 @@ a {
   color: var(--text-main-paragraph-color);
   font-weight: 300;
 }
+
+section {
+  color: var(--text-main-paragraph-color);
+  font-weight: 300;
+
+  .title {
+    color: var(--text-main-heading-color);
+    font-weight: 600;
+  }
+}
