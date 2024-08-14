@@ -477,6 +477,9 @@ section .title {
 .service-list .item .item-desc .title {
   font-size: 1.8rem;
 }
+.service-list .item .item-desc .title:hover {
+  color: var(--bg-primary-color);
+}
 .service-list .item .item-desc .desc {
   margin-top: 8px;
   line-height: 1.75;

@@ -65,6 +65,10 @@
       .item-desc {
         .title {
           font-size: 1.8rem;
+
+          &:hover {
+            color: var(--bg-primary-color)
+          }
         }
 
         .desc {
